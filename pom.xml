@@ -31,7 +31,7 @@
 		<tag>@{project.version}</tag>
 		 -->
 		 <developerConnection>scm:git:ssh:git@github.com:nasiriqbal786/sfg-pet-clinic.git</developerConnection>
-		 <tag>@{project.version}</tag>
+		 <tag>v@{project.version}</tag>
 	</scm>
 	<build>
 		<plugins>
