@@ -25,10 +25,13 @@
 	</properties>
 
 	<scm>
-		<connection>scm:git:ssh:git@github.com:nasiriqbal786/sfg-pet-clinic.git</connection>
+	<!-- 	<connection>scm:git:ssh:git@github.com:nasiriqbal786/sfg-pet-clinic.git</connection>
 		<developerConnection>scm:git:ssh:git@github.com:nasiriqbal786/sfg-pet-clinic.git</developerConnection>
 		<url>https://github.com/nasiriqbal786/sfg-pet-clinic.git</url>
 		<tag>@{project.version}</tag>
+		 -->
+		 <developerConnection>scm:git:ssh:git@github.com:nasiriqbal786/sfg-pet-clinic.git</developerConnection>
+		 <tag>@{project.version}</tag>
 	</scm>
 	<build>
 		<plugins>
