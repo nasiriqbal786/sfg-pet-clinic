@@ -28,7 +28,7 @@
 		<connection>scm:git:ssh:git@github.com:nasiriqbal786/sfg-pet-clinic.git</connection>
 		<developerConnection>scm:git:ssh:git@github.com:nasiriqbal786/sfg-pet-clinic.git</developerConnection>
 		<url>https://github.com/nasiriqbal786/sfg-pet-clinic.git</url>
-		<tag>@{project.version}</tag>
+		<tag>vvv@{project.version}22</tag>
 	</scm>
 	<build>
 		<plugins>
