@@ -2,6 +2,7 @@ package com.springframework.sfgpetclinic.model;
 
 import java.time.LocalDate;
 
+@SuppressWarnings("serial")
 public class Pet extends BaseEntity {
 	
 	private PetType petType;

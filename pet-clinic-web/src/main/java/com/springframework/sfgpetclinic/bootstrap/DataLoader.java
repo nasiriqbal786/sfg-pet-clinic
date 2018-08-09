@@ -7,8 +7,6 @@ import com.springframework.sfgpetclinic.model.Owner;
 import com.springframework.sfgpetclinic.model.Vet;
 import com.springframework.sfgpetclinic.services.OwnerService;
 import com.springframework.sfgpetclinic.services.VetService;
-import com.springframework.sfgpetclinic.services.map.OwnerServiceMap;
-import com.springframework.sfgpetclinic.services.map.VetServiceMap;
 
 @Component
 public class DataLoader implements CommandLineRunner{
