@@ -1,5 +1,6 @@
 package com.springframework.sfgpetclinic.model;
 
+import java.util.HashSet;
 import java.util.Set;
 
 @SuppressWarnings("serial")
@@ -8,6 +9,8 @@ public class Owner extends Person {
 	private String address;
 	private String city;
 	private String telephone;
+	private Set<Pet> pets = new HashSet<>();
+
 	
 	
 	public String getAddress() {
@@ -33,8 +36,6 @@ public class Owner extends Person {
 	public void setTelephone(String telephone) {
 		this.telephone = telephone;
 	}
-
-	private Set<Pet> pets;
 
 	public Set<Pet> getPets() {
 		return pets;
